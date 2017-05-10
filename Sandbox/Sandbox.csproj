@@ -57,8 +57,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SandboxFramework\Framework.csproj">
-      <Project>{781a0185-f28f-40a7-869f-ad8a17fefe6a}</Project>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{781A0185-F28F-40A7-869F-AD8A17FEFE6A}</Project>
       <Name>Framework</Name>
     </ProjectReference>
   </ItemGroup>

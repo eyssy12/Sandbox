@@ -11,7 +11,7 @@
         {
             int length = Generator.Randomizer.Next(min, max);
 
-            return new string(Enumerable.Range(0, length).Select(i => (char)Randomizer.Next(0, 127)).ToArray());
+            return new string(Enumerable.Range(0, length).Select(i => (char)Generator.Randomizer.Next(33, 126)).ToArray());
         }
 
         public static int RandomInt(int min = 1, int max = int.MaxValue)
